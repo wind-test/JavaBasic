@@ -2,7 +2,7 @@ package Example1;
 
 /**
  * @FileName ConstructDemo
- * @Description
+ * @Description 构造函数
  * @Author WindDancer
  * @date 2023-08-01
  **/
