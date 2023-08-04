@@ -27,6 +27,6 @@ public class InterfaceDemo13 {
 
         System.out.println("====================");
 
-        //sc.method();
+//        sc.method();
     }
 }

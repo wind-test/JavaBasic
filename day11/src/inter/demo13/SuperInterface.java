@@ -24,9 +24,9 @@ public interface SuperInterface {
         System.out.println("沙沙老师好");
     }
 
-    /*private void method () {
+    private void method () {
         System.out.println("你好");
         System.out.println("我好");
         System.out.println("大家好");
-    }*/
+    }
 }

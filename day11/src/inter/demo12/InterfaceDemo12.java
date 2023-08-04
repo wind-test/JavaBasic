@@ -28,6 +28,6 @@ package inter.demo12;
  */
 public class InterfaceDemo12 {
     public static void main(String[] args) {
-        //SubInterface.method();
+//        SubInterface.method();
     }
 }

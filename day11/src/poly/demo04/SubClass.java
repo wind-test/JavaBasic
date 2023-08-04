@@ -11,4 +11,8 @@ public class SubClass extends SuperClass{
     public void method () {
         System.out.println("子类的实例方法");
     }
+
+    public void subMethod() {
+        System.out.println("子类特有的实例方法");
+    }
 }

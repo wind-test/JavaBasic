@@ -15,7 +15,7 @@ public class PolyDemo07 {
         //创建猫对象
         Animal cat = new Cat(2, "白");
 
-        //cat.catchMouse();
+//        cat.catchMouse();
         cat.eat("鱼");
         cat.sleep();
     }

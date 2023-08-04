@@ -33,6 +33,5 @@ public class PolyDemo04 {
         //父类new子类(多态)
         SuperClass sc = new SubClass();
         sc.method();
-
     }
 }

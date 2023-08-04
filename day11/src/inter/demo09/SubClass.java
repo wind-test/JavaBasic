@@ -9,7 +9,7 @@ package inter.demo09;
  */
 public class SubClass implements A,B,C {
     @Override
-    public void method () {
-        A.super.method();
+    public void method() {
+        B.super.method();
     }
 }
