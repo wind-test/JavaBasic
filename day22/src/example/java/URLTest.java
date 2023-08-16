@@ -48,7 +48,7 @@ public class URLTest {
         URLConnection uc = url.openConnection();
 
         InputStream in = uc.getInputStream();
-        FileOutputStream fos = new FileOutputStream("D:/1.exe");
+        FileOutputStream fos = new FileOutputStream("1.exe");
 
         byte[] b = new byte[1024];
         int len = 0;

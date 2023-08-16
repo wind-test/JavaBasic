@@ -16,7 +16,7 @@ public class TCPTest3 {
     @Test
     public void client() throws IOException {
         Socket s = new Socket(InetAddress.getByName("127.0.0.1"), 9898);
-        FileInputStream fis = new FileInputStream("./1.jpg");
+        FileInputStream fis = new FileInputStream("1.jpg");
 
         //客户端发送图片给服务端
         OutputStream os = s.getOutputStream();
@@ -48,7 +48,7 @@ public class TCPTest3 {
         ServerSocket ss = new ServerSocket(9898);
         Socket s = ss.accept();
 
-        FileOutputStream fos = new FileOutputStream("./2.jpg");
+        FileOutputStream fos = new FileOutputStream("2.jpg");
 
         InputStream in = s.getInputStream();
         byte[] b = new byte[1024];
